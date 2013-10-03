@@ -7,9 +7,11 @@
 Veja esse post (http://udgwebdev.com/primeiros-passos-com-meteor) o tutorial completo para instalação e execução desse app.
 
 ## Autor
-Caio R. Pereira
+Nome: Caio Ribeiro Pereira
+
 Email: caio.ribeiro.pereira@gmail.com
+
 Twitter: @crp_underground
 
 ## Licença
-MIT - http://caio-ribeiro-pereira.mit-license.org/
+MIT - http://caio-ribeiro-pereira.mit-license.org
