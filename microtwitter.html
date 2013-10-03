@@ -1,0 +1,35 @@
+<head>
+  <title>MicroTwitter</title>
+</head>
+
+<body>
+	{{> formulario}}
+  {{> mensagens}}
+</body>
+
+<template name="formulario">
+	<div class="formulario">
+		<h1>MicroTwitter</h1>
+		<input type="text" id="nome" name="nome" placeholder="Nome">
+		<textarea id="conteudo" name="conteudo" placeholder="Mensagem" maxlength="140"></textarea>
+		<button id="enviar">Enviar</button>
+	</div>
+</template>
+
+<template name="mensagens">
+	<div class="timeline">
+		<h1>Timeline</h1>
+	  {{#each timeline}}
+	  	<hr>
+	  	<p class="mensagem">
+	  		{{conteudo}}
+	  		<br>
+	  		<small>{{nome}} {{data}}</small>
+	  	</p>
+	  {{else}}
+			<p class="info">
+				<small>Nenhuma mensagem publicada.</small>
+			</p>
+		{{/each}}
+	</div>
+</template>
